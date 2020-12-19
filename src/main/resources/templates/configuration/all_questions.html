@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>QUESTIONS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" th:href="@{/static/css/background.css}"/>
+</head>
+<body style="background-image: url('/img/background.JPG')">
+
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-lg-10 offset-1">
+            <div class="jumbotron">
+
+                <a class="btn btn-primary btn-lg" th:href="@{/}">Powrót</a>
+                <a class="btn btn-primary btn-lg" th:href="@{/configuration/insert_question}">Dodaj nowe pytanie</a>
+                <a class="btn btn-primary btn-lg" th:href="@{/configuration/json}">Wczytaj standardowe pytania</a>
+
+                <hr class="my-6">
+
+                <form th:action="@{/configuration/all_questions}" method="post" th:object="${questionFilter}">
+                    <div class="row">
+                        <div class="form-group">
+                            <label class="h4 text-info">Kategoria:</label>
+                            <select th:field="*{categoryId}" class="form-control">
+                                <option
+                                        th:each="c : ${categoryList}"
+                                        th:value="${c.id}"
+                                        th:text="${c.name}">
+                                </option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="h4 text-info">Poziom trudności:</label>
+                            <select th:field="*{level}" class="form-control">
+                                <option
+                                        th:each="e : ${levelList}"
+                                        th:value="${e}"
+                                        th:text="${e.name}"
+                                ></option>
+                            </select>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Filtruj</button>
+                </form>
+
+                <hr class="my-6">
+
+                <ul class="list-unstyled">
+                    <li th:each="q : ${questions}" class="my-1 p-1">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title" th:text="${q.getCategory().name}"></h5>
+                                <h6 class="card-text" th:text="${q.level.name}"></h6>
+                                <p class="card-text" th:text="${q.text}"></p>
+                                <a href="#" class="btn btn-info"
+                                   th:href="@{/configuration/details_question/{i}(i=${q.id})}">Szczegóły</a>
+                                <a href="#" class="btn btn-warning"
+                                   th:href="@{/configuration/modify_question/{i}(i=${q.id})}">Modyfikuj</a>
+                                <form style="display: inline-block" th:action="@{/configuration/delete_question}"
+                                      method="post">
+                                    <input type="text" name="id" th:value="${q.id}" hidden="hidden"
+                                           readonly="readonly"/>
+                                    <button class="btn btn-danger" type="submit">Usuń</button>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>

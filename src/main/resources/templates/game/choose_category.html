@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>CHOOSE CATEGORY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body style="background-image: url('/img/background.JPG')">
+
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-lg-10 offset-1">
+            <div class="jumbotron">
+
+                <form style="display: inline-block" th:action="@{/game/delete_quiz}" method="post">
+                    <input type="text" name="id" th:value="${quiz.id}" hidden="hidden" readonly="readonly"/>
+                    <button class="btn btn-info btn-lg" type="submit">Powrót</button>
+                </form>
+
+                <form th:action="@{/game/choose_category}" method="post" th:object="${questionFilter}">
+                    <h2 class="text-info mb-3"
+                        th:text="'Wybrano użytkownika ' + ${user.name} + ' ' + ${user.surname}"></h2>
+                    <div class="form-group">
+                        <label class="h4 text-info">Kategoria:</label>
+                        <select th:field="*{categoryId}" class="form-control">
+                            <option
+                                    th:each="c : ${categoryList}"
+                                    th:value="${c.id}"
+                                    th:text="${c.name}">
+                            </option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="h4 text-info">Poziom trudności:</label>
+                        <select th:field="*{level}" class="form-control">
+                            <option
+                                    th:each="e : ${levelList}"
+                                    th:value="${e}"
+                                    th:text="${e.name}"
+                            ></option>
+                        </select>
+                    </div>
+
+                    <div th:if="${!error.isEmpty()}">
+                        <p class="text-danger" th:text="${error}"></p>
+                    </div>
+
+                    <button class="btn btn-success btn-lg" type="submit">Graj</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,678 @@
+[
+  {
+    "text": "Co przedstawia zdjêcie?",
+    "category": {
+      "name": "Star Wars"
+    },
+    "level": "EASY",
+    "answers": [
+      {
+        "text": "Gwiezdny Niszczyciel typu Imperial",
+        "correct": true
+      },
+      {
+        "text": "Gwiezdny Niszczyciel typu Victory",
+        "correct": false
+      },
+      {
+        "text": "Gwiezdny Niszczyciel typu Imperious",
+        "correct": false
+      },
+      {
+        "text": "Gwiezdny Niszczyciel typu Eclipse",
+        "correct": false
+      }
+    ],
+    "filename": "pic1.jpg"
+  },
+  {
+    "text": "Jak¹ maszyne krocz¹c¹ przedstawia obrazek?",
+    "category": {
+      "name": "Star Wars"
+    },
+    "level": "EASY",
+    "answers": [
+      {
+        "text": "AT-AT",
+        "correct": true
+      },
+      {
+        "text": "AT-ST",
+        "correct": false
+      },
+      {
+        "text": "AT-RT",
+        "correct": false
+      },
+      {
+        "text": "AT-DP",
+        "correct": false
+      }
+    ],
+    "filename": "pic2.jpg"
+  },
+  {
+    "text": "Z którego filmu jest to scena?",
+    "category": {
+      "name": "Star Wars"
+    },
+    "level": "EASY",
+    "answers": [
+      {
+        "text": "Mroczne widmo",
+        "correct": false
+      },
+      {
+        "text": "Zemsta Sithów",
+        "correct": true
+      },
+      {
+        "text": "Przebudzenie Mocy",
+        "correct": false
+      },
+      {
+        "text": "Ostatni Jedi",
+        "correct": false
+      }
+    ],
+    "filename": "pic3.jpg"
+  },
+  {
+    "text": "Kim byli Sithowie?",
+    "category": {
+      "name": "Star Wars"
+    },
+    "level": "EASY",
+    "answers": [
+      {
+        "text": "wyznawcy ciemnej strony mocy",
+        "correct": true
+      },
+      {
+        "text": "wyznawcy jasnej strony mocy",
+        "correct": false
+      },
+      {
+        "text": "ka¿de zwierze obdarzone moc¹",
+        "correct": false
+      },
+      {
+        "text": "ka¿da osoba obdarzona moc¹",
+        "correct": false
+      }
+    ],
+    "filename": ""
+  },
+  {
+    "text": "Kim by³ Darth Vader?",
+    "category": {
+      "name": "Star Wars"
+    },
+    "level": "EASY",
+    "answers": [
+      {
+        "text": "Sithem i uczniem Palpatine",
+        "correct": true
+      },
+      {
+        "text": "Sithem i mistrzem Palpatine",
+        "correct": false
+      },
+      {
+        "text": "Przywódc¹ Imperium",
+        "correct": false
+      },
+      {
+        "text": "Dowódc¹ Imperium",
+        "correct": false
+      }
+    ],
+    "filename": ""
+  },
+  {
+    "text": "Kto by³ g³ownym bochaterem filmy Rogue One?",
+    "category": {
+      "name": "Star Wars"
+    },
+    "level": "EASY",
+    "answers": [
+      {
+        "text": "Jyn Erso",
+        "correct": true
+      },
+      {
+        "text": "Rey",
+        "correct": false
+      },
+      {
+        "text": "Luke Skywalker",
+        "correct": false
+      },
+      {
+        "text": "Han Solo",
+        "correct": false
+      }
+    ],
+    "filename": ""
+  },
+  {
+    "text": "Kto by³ senatorem planety Naboo?",
+    "category": {
+      "name": "Star Wars"
+    },
+    "level": "NORMAL",
+    "answers": [
+      {
+        "text": "Palpatine",
+        "correct": true
+      },
+      {
+        "text": "Yuuzhan Vong",
+        "correct": false
+      },
+      {
+        "text": "Tenebrous",
+        "correct": false
+      },
+      {
+        "text": "Coleman Trebor",
+        "correct": false
+      }
+    ],
+    "filename": ""
+  },
+  {
+    "text": "Jakiej rasy by³ Darth Maul?",
+    "category": {
+      "name": "Star Wars"
+    },
+    "level": "NORMAL",
+    "answers": [
+      {
+        "text": "Zabrak",
+        "correct": true
+      },
+      {
+        "text": "Yuuzhan Vong",
+        "correct": false
+      },
+      {
+        "text": "Zygerrian",
+        "correct": false
+      },
+      {
+        "text": "Nullanin",
+        "correct": false
+      }
+    ],
+    "filename": ""
+  },
+  {
+    "text": "Wska¿ mistrzów Anakina Skywalkera?",
+    "category": {
+      "name": "Star Wars"
+    },
+    "level": "NORMAL",
+    "answers": [
+      {
+        "text": "Obi-Wan Kenobi i Darth Sidious",
+        "correct": true
+      },
+      {
+        "text": "Obi-Wan Kenobi i Darth Vader",
+        "correct": false
+      },
+      {
+        "text": "Darth Plagueis i Obi-Wan Kenobi",
+        "correct": false
+      },
+      {
+        "text": "Qui-Gon Jinn i Darth Sidious",
+        "correct": false
+      }
+    ],
+    "filename": ""
+  },
+  {
+    "text": "Czym by³o AT-ST?",
+    "category": {
+      "name": "Star Wars"
+    },
+    "level": "NORMAL",
+    "answers": [
+      {
+        "text": "dwuno¿na maszyna krocz¹ca imperium",
+        "correct": true
+      },
+      {
+        "text": "dwuno¿na maszyna krocz¹ca klonów",
+        "correct": false
+      },
+      {
+        "text": "czterono¿na maszyna krocz¹ca imperium",
+        "correct": false
+      },
+      {
+        "text": "czterono¿na maszyna krocz¹ca klonów",
+        "correct": false
+      }
+    ],
+    "filename": ""
+  },
+  {
+    "text": "Czym by³a \"zasada dwóch\"?",
+    "category": {
+      "name": "Star Wars"
+    },
+    "level": "NORMAL",
+    "answers": [
+      {
+        "text": "zawsze tylko 2 stihów uczeñ i mistrz",
+        "correct": true
+      },
+      {
+        "text": "rycerze jedi zawsze mieli we dwóch dzia³aæ/walczyæ",
+        "correct": false
+      },
+      {
+        "text": "jeden rycerz jedi mog³ mieæ tylko 1 ucznia",
+        "correct": false
+      },
+      {
+        "text": "dwóch sithów zawsze mia³o byæ razem",
+        "correct": false
+      }
+    ],
+    "filename": ""
+  },
+  {
+    "text": "Kto by³ mistrzem imperatora Palpatine?",
+    "category": {
+      "name": "Star Wars"
+    },
+    "level": "HARD",
+    "answers": [
+      {
+        "text": "Darth Plagueis",
+        "correct": true
+      },
+      {
+        "text": "Darth Tenebrous",
+        "correct": false
+      },
+      {
+        "text": "Darth Sidious",
+        "correct": false
+      },
+      {
+        "text": "Darth Maul",
+        "correct": false
+      }
+    ],
+    "filename": ""
+  },
+  {
+    "text": "Który z jedi zgin¹³ podczas próby aresztowania Dartha Sidiousa?",
+    "category": {
+      "name": "Star Wars"
+    },
+    "level": "HARD",
+    "answers": [
+      {
+        "text": "Saesee Tiin",
+        "correct": true
+      },
+      {
+        "text": "Yaddle",
+        "correct": false
+      },
+      {
+        "text": "Yarael Poof",
+        "correct": false
+      },
+      {
+        "text": "Coleman Trebor",
+        "correct": false
+      }
+    ],
+    "filename": ""
+  },
+  {
+    "text": "Kto zgin¹³ podczas misji na malachor w serialu rebelianci?",
+    "category": {
+      "name": "Star Wars"
+    },
+    "level": "HARD",
+    "answers": [
+      {
+        "text": "5, 8 i 7 brat",
+        "correct": false
+      },
+      {
+        "text": "5 i 8 brat 7 siostra",
+        "correct": true
+      },
+      {
+        "text": "4, 6 i 7 brat",
+        "correct": false
+      },
+      {
+        "text": "4 i 6 brat 7 siostra",
+        "correct": false
+      }
+    ],
+    "filename": ""
+  },
+  {
+    "text": "Kto stworzy³ zasade dwóch?",
+    "category": {
+      "name": "Star Wars"
+    },
+    "level": "HARD",
+    "answers": [
+      {
+        "text": "Tenebrous",
+        "correct": false
+      },
+      {
+        "text": "Bane",
+        "correct": true
+      },
+      {
+        "text": "Revan",
+        "correct": false
+      },
+      {
+        "text": "Malak",
+        "correct": false
+      }
+    ],
+    "filename": ""
+  },
+  {
+    "text": "Jakiego typu okrêtu by³ sokó³ milenium?",
+    "category": {
+      "name": "Star Wars"
+    },
+    "level": "HARD",
+    "answers": [
+      {
+        "text": "YT-1300",
+        "correct": true
+      },
+      {
+        "text": "YT-2300",
+        "correct": false
+      },
+      {
+        "text": "TY-1300",
+        "correct": false
+      },
+      {
+        "text": "TY-2300",
+        "correct": false
+      }
+    ],
+    "filename": ""
+  },
+  {
+    "text": "Jaki to karabin?",
+    "category": {
+      "name": "Militaria"
+    },
+    "level": "EASY",
+    "answers": [
+      {
+        "text": "AK-74",
+        "correct": true
+      },
+      {
+        "text": "G36",
+        "correct": false
+      },
+      {
+        "text": "M4",
+        "correct": false
+      },
+      {
+        "text": "FN FAL",
+        "correct": false
+      }
+    ],
+    "filename": "pic4.jpg"
+  },
+  {
+    "text": "Jaki amerykañski karabin by³ samopowtaralny który po wystrzeleniu magazynka wydawa³ charakterystyczny \"brzdêk\"",
+    "category": {
+      "name": "Militaria"
+    },
+    "level": "EASY",
+    "answers": [
+      {
+        "text": "M1 Garand",
+        "correct": true
+      },
+      {
+        "text": "M1 Carabine",
+        "correct": false
+      },
+      {
+        "text": "M1903 Springfield",
+        "correct": false
+      },
+      {
+        "text": "Winchester",
+        "correct": false
+      }
+    ],
+    "filename": ""
+  },
+  {
+    "text": "Wska¿ myœliwiec niemiecki?",
+    "category": {
+      "name": "Militaria"
+    },
+    "level": "EASY",
+    "answers": [
+      {
+        "text": "Messerschmitt Me 309",
+        "correct": true
+      },
+      {
+        "text": "Reggiane Re.2003",
+        "correct": false
+      },
+      {
+        "text": "£aGG-3",
+        "correct": false
+      },
+      {
+        "text": "Seversky P-35",
+        "correct": false
+      }
+    ],
+    "filename": ""
+  },
+  {
+    "text": "Jaki to czo³g?",
+    "category": {
+      "name": "Militaria"
+    },
+    "level": "EASY",
+    "answers": [
+      {
+        "text": "T-34",
+        "correct": true
+      },
+      {
+        "text": "T32",
+        "correct": false
+      },
+      {
+        "text": "M4",
+        "correct": false
+      },
+      {
+        "text": "pzkpfw IV",
+        "correct": false
+      }
+    ],
+    "filename": "pic5.jpg"
+  },
+  {
+    "text": "Który to czo³g amerykañski?",
+    "category": {
+      "name": "Militaria"
+    },
+    "level": "EASY",
+    "answers": [
+      {
+        "text": "M1 Abrams",
+        "correct": true
+      },
+      {
+        "text": "Leopard 2",
+        "correct": false
+      },
+      {
+        "text": "Merkawa",
+        "correct": false
+      },
+      {
+        "text": "T-72",
+        "correct": false
+      }
+    ],
+    "filename": ""
+  },
+  {
+    "text": "Test Pytania 1?",
+    "category": {
+      "name": "KategoriaC1"
+    },
+    "level": "EASY",
+    "answers": [
+      {
+        "text": "odp11",
+        "correct": true
+      },
+      {
+        "text": "odp12",
+        "correct": false
+      },
+      {
+        "text": "odp13",
+        "correct": false
+      },
+      {
+        "text": "odp14",
+        "correct": false
+      }
+    ],
+    "filename": ""
+  },
+  {
+    "text": "Test Pytania 2?",
+    "category": {
+      "name": "KategoriaC1"
+    },
+    "level": "EASY",
+    "answers": [
+      {
+        "text": "odp21",
+        "correct": true
+      },
+      {
+        "text": "odp22",
+        "correct": false
+      },
+      {
+        "text": "odp23",
+        "correct": false
+      },
+      {
+        "text": "odp24",
+        "correct": false
+      }
+    ],
+    "filename": ""
+  },
+  {
+    "text": "Test Pytania 3?",
+    "category": {
+      "name": "KategoriaC1"
+    },
+    "level": "EASY",
+    "answers": [
+      {
+        "text": "odp31",
+        "correct": true
+      },
+      {
+        "text": "odp32",
+        "correct": false
+      },
+      {
+        "text": "odp33",
+        "correct": false
+      },
+      {
+        "text": "odp34",
+        "correct": false
+      }
+    ],
+    "filename": ""
+  },
+  {
+    "text": "Test Pytania 4?",
+    "category": {
+      "name": "KategoriaC1"
+    },
+    "level": "EASY",
+    "answers": [
+      {
+        "text": "odp41",
+        "correct": true
+      },
+      {
+        "text": "odp42",
+        "correct": false
+      },
+      {
+        "text": "odp43",
+        "correct": false
+      },
+      {
+        "text": "odp44",
+        "correct": false
+      }
+    ],
+    "filename": ""
+  },
+  {
+    "text": "Test Pytania 5?",
+    "category": {
+      "name": "KategoriaC1"
+    },
+    "level": "EASY",
+    "answers": [
+      {
+        "text": "odp51",
+        "correct": true
+      },
+      {
+        "text": "odp52",
+        "correct": false
+      },
+      {
+        "text": "odp53",
+        "correct": false
+      },
+      {
+        "text": "odp54",
+        "correct": false
+      }
+    ],
+    "filename": ""
+  }
+]

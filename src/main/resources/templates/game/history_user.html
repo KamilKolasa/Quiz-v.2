@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>HISTORY USER</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body style="background-image: url('/img/background.JPG')">
+
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-lg-12">
+            <div class="jumbotron">
+
+                <a class="btn btn-primary btn-lg" th:href="@{/game/table_user}">Powrót</a>
+
+                <h2 class="text-info mb-3" th:text="'Użytkownik ' + ${user.name} + ' ' + ${user.surname}"></h2>
+
+                <table class="table table-lg table-light">
+                    <thead>
+                    <th>Data</th>
+                    <th>Poprawne odpowiedzi</th>
+                    <th>Wynik</th>
+                    </thead>
+                    <tbody>
+                    <tr th:each="h : ${history}">
+                        <td th:text="${h.date.year}+'-'+${h.date.monthValue}+'-'+${h.date.dayOfMonth}+' '+${h.date.hour}+':'+${h.date.minute}"></td>
+                        <td th:text="${h.goodAnswer}"></td>
+                        <td th:text="${h.result}"></td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
